@@ -17,7 +17,7 @@ app.use(cors())
 app.use('/api', routes)
 
 app.get("/api/getkey", (req, res) =>
-  res.status(200).json({ key:  'rzp_test_68hOhyCY6693ZV'})
+  res.status(200).json({ key:  'rzp_test_6'})
 );
 
 module.exports.app = app
